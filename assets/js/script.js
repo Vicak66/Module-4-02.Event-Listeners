@@ -14,8 +14,9 @@ incrementEl.addEventListener('click', function() {
     count++;
     setCounterText();
 });
-
+// Attach event listener to decrement button element 
 decrementEl.addEventListener('click', function() {
+    // Action will fire if count is greater then 0
     if (count > 0) {
         count--;
         setCounterText();
